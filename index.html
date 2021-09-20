@@ -11,6 +11,7 @@
             <li>Apache defaults to listen on port 80</li>
             <li>Access and Error logs are both stored in /var/logs/apache2. To show the last 10 lines of a file you can use the `tail` command</li>
             <li>In each folder you have an index.html that is a starting point for the server so it knows what to serve.</li>
+            <li>You put a .htaccess file in the DocumentRoot directory, and put a directive that looks like "ErrorDocument 404 /404.html". You then also must set AllowOverride All in the apache2.conf file under the directory settings for /var/www/html</li>
         </ol>
     </body>
 </html>
