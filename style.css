@@ -1,6 +1,28 @@
 body{
-    text-align: center;
     background-color: #2d2d2f;
-    color: #0cc;
-    padding: 20vw;
+    color: #4dd;
+    padding-left: 20vw;
+    padding-right: 20vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.text-center{
+    text-align: center;
+}
+
+a{
+    color: #a0a;
+    font-size: large;
+}
+
+a:visited{
+    color: #d0d;
+}
+
+li{
+    padding-bottom: 1rem;
+}
+
+img{
+    padding-top: 4rem;
 }
