@@ -16,10 +16,8 @@
             $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
             //return all passengers, and store the result set
-            $stmt = $db->prepare("SELECT * FROM passengers WHERE ssn=':ssn'");
-            $stmt->bindParam(':ssn', $ssn);
-            $ssn = $_GET['passenger_ssn'];
-            $stmt->execute();
+            $stmt = $db->prepare("SELECT * FROM passengers WHERE ssn = ?");
+            $stmt->execute([$_GET['passenger_ssn']]);
 
             //loop through each tuple in result set and print out the data
             //ssn will be shown in blue (see below)
