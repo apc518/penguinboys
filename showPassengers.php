@@ -21,8 +21,14 @@
 
             //loop through each tuple in result set and print out the data
             //ssn will be shown in blue (see below)
-            foreach($stmt as $tuple) {          // <------ Line 24
-                echo "<font color='blue'>$tuple[ssn]</font> $tuple[f_name] $tuple[m_name] $tuple[l_name]<br/>\n";
+            // foreach($stmt as $tuple) {          // <------ Line 24
+            //     echo "<font color='blue'>$tuple[ssn]</font> $tuple[f_name] $tuple[m_name] $tuple[l_name]<br/>\n";
+            // }
+
+            $query_str = "select * from passengers;";
+            $result_set = $db->query($query_str);
+            foreach($result_set as $tuple) {
+              echo "<font color='blue'>$tuple[ssn]</font> $tuple[f_name] $tuple[m_name] $tuple[l_name]<br/>\n";
             }
 
             //disconnect from db
