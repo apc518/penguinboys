@@ -10,7 +10,6 @@
       <?php
 
       echo "ERROR: " . $_SESSION['error'];
-      echo "ERROR: " . $_GET['error'];
       unset($_SESSION['error']);
 
       ?>
