@@ -1,39 +1,44 @@
-<?php
+<?php session_start(); ?>
 
-  session_start();
+<html>
+  <head>
+        <title>penguin boyz</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
 
-   echo("First name: " . $_POST['f_name'] . "<br />\\n");
-   echo("Middle name: " . $_POST['m_name'] . "<br />\\n");
-   echo("Last name: " . $_POST['l_name'] . "<br />\\n");
-   echo("SSN: " . $_POST['ssn'] . "<br />\\n");
+      <?php
 
+      echo "ERROR: " . $_SESSION['error'];
+      echo "ERROR: " . $_GET['error'];
+      unset($_SESSION['error']);
 
-  if (empty($_POST['f_name'])) {
-    $_SESSION['error'] = 'Missing First Name';
-    header('Location: http://129.114.19.115/~dbteam/form.html?error=missingFirstName');
-    exit;
+      ?>
 
-    echo "First name is empty!";
-  }
-  if (empty($_POST['m_name'])) {
-    $_SESSION['error'] = 'Missing Middle Name';
-    header('Location: http://129.114.19.115/~dbteam/form.html?error=missingMiddleName');
-    exit;
+      <h1>New Passenger Form</h1>
 
-    echo "Middle name is empty!";
-  }
-  if (empty($_POST['l_name'])) {
-    $_SESSION['error'] = 'Missing Last Name';
-    header('Location: http://129.114.19.115/~dbteam/form.html?error=missingLastName');
-    exit;
+      <form action="form_php.php" method="post">
+        <label for="f_name">First name:</label><br>
+        <input type="text" id="f_name" name="f_name">
 
-    echo "Last name is empty!";
-  }
-  if (empty($_POST['ssn'])) {
-    $_SESSION['error'] = 'Missing SSN';
-    header('Location: http://129.114.19.115/~dbteam/form.html?error=missingSSN');
-    exit;
+        <br>
 
-    echo "ssn is empty!";
-  }
-?>
+        <label for="m_name">Middle name:</label><br>
+        <input type="text" id="m_name" name="m_name">
+
+        <br>
+
+        <label for="l_name">Last name:</label><br>
+        <input type="text" id="l_name" name="l_name">
+
+        <br>
+
+        <label for="ssn">SSN:</label><br>
+        <input type="text" id="ssn" name="ssn">
+
+        <br><br>
+
+        <input type="submit" value="Submit">
+      </form>
+
+</body></html>
