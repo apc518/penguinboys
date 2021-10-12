@@ -9,7 +9,8 @@
 
       <?php
 
-      echo "ERROR: " . $_GET['error'];
+      echo "ERROR: " . $_SESSION['error'];
+      unset($_SESSION['error']);
 
       ?>
 

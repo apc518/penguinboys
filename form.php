@@ -9,22 +9,26 @@
 
 
   if (empty($_POST['f_name'])) {
-    header('Location: http://129.114.19.115/~dbteam/form.html?error=missingFirstName');
+    $_SESSION['error'] = 'Missing First Name';
+    header('Location: http://129.114.19.115/~dbteam/form.html');
 
     echo "First name is empty!";
   }
   if (empty($_POST['m_name'])) {
-    header('Location: http://129.114.19.115/~dbteam/form.html?error=missingMiddleName');
+    $_SESSION['error'] = 'Missing Middle Name';
+    header('Location: http://129.114.19.115/~dbteam/form.html');
 
     echo "Middle name is empty!";
   }
   if (empty($_POST['l_name'])) {
-    header('Location: http://129.114.19.115/~dbteam/form.html?error=missingLastName');
+    $_SESSION['error'] = 'Missing Last Name';
+    header('Location: http://129.114.19.115/~dbteam/form.html');
 
     echo "Last name is empty!";
   }
   if (empty($_POST['ssn'])) {
-    header('Location: http://129.114.19.115/~dbteam/form.html?error=missingSSN');
+    $_SESSION['error'] = 'Missing SSN';
+    header('Location: http://129.114.19.115/~dbteam/form.html');
 
     echo "ssn is empty!";
   }
