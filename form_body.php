@@ -33,18 +33,39 @@
         <br>
 
         <label for="m_name">Middle name:</label><br>
-        <input type="text" id="m_name" name="m_name">
+        <?php
+          if (isset($_GET['m_name'])){
+            echo "<input type='text' id='m_name' name='m_name' value='" . $_GET['m_name'] ."'>";
+          } else {
+            echo "<input type='text' id='m_name' name='m_name'>";
+          }
+        ?>
 
         <br>
 
         <label for="l_name">Last name:</label><br>
-        <input type="text" id="l_name" name="l_name">
+        <?php
+          if (isset($_GET['l_name'])){
+            echo "<input type='text' id='l_name' name='l_name' value='" . $_GET['l_name'] ."'>";
+          } else {
+            echo "<input type='text' id='l_name' name='l_name'>";
+          }
+        ?>
 
         <br>
 
         <label for="ssn">SSN:</label><br>
         <input type="text" id="ssn" name="ssn" placeholder="123-45-6789"
   pattern="[0-9]{3}-[0-9]{2}-[0-9]{4}">
+        <?php
+          if (isset($_GET['ssn'])){
+            echo "<input type='text' id='ssn' name='ssn' placeholder='123-45-6789'
+      pattern='[0-9]{3}-[0-9]{2}-[0-9]{4}' value='" . $_GET['ssn'] ."'>";
+          } else {
+            echo "<input type='text' id='ssn' name='ssn' placeholder='123-45-6789'
+      pattern='[0-9]{3}-[0-9]{2}-[0-9]{4}'>";
+          }
+        ?>
 
         <br><br>
 
