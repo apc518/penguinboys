@@ -12,7 +12,7 @@
 
         //prints success message
         if (isset($_SESSION['formSuccessMessage'])) {
-          echo "<p color='red'>" . $_SESSION['formSuccessMessage'] . "</p> <br /> <br />";
+          echo "<font color='#d0d'>" . $_SESSION['formSuccessMessage'] . "</font> <br /> <br />";
           unset($_SESSION['formSuccessMessage']);
         }
 
