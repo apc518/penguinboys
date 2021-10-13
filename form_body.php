@@ -9,8 +9,10 @@
 
       <?php
 
-      echo "ERROR: " . $_SESSION['error'];
-      unset($_SESSION['error']);
+      if (isset($_SESSION['error'])) {
+        echo "ERROR: " . $_SESSION['error'];
+        unset($_SESSION['error']);
+      }
 
       ?>
 
