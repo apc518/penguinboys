@@ -24,9 +24,9 @@
         <label for="f_name">First name:</label><br>
         <?php
           if (isset($_GET['f_name'])){
-            echo "<input type='text' id='f_name' name='f_name' value='" . $_GET['f_name'] ."'>"
+            echo "<input type='text' id='f_name' name='f_name' value='" . $_GET['f_name'] ."'>";
           } else {
-            echo "<input type='text' id='f_name' name='f_name'>"
+            echo "<input type='text' id='f_name' name='f_name'>";
           }
         ?>
 
