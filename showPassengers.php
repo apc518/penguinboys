@@ -8,7 +8,7 @@
 
         //prints success message
         if (isset($_SESSION['formSuccessMessage'])) {
-          echo $_SESSION['formSuccessMessage'];
+          echo "<p color='red'>" . $_SESSION['formSuccessMessage'] . "</p> <br /> <br />";
           unset($_SESSION['formSuccessMessage']);
         }
 
