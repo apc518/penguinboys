@@ -15,29 +15,36 @@
     $_SESSION['error'] = 'Missing First Name';
     header('Location: http://129.114.19.115/~dbteam/form_body');
     exit;
-
-    echo "First name is empty!";
   }
   if (empty($_POST['m_name'])) {
     $_SESSION['error'] = 'Missing Middle Name';
     header('Location: http://129.114.19.115/~dbteam/form_body');
     exit;
-
-    echo "Middle name is empty!";
   }
   if (empty($_POST['l_name'])) {
     $_SESSION['error'] = 'Missing Last Name';
     header('Location: http://129.114.19.115/~dbteam/form_body');
     exit;
-
-    echo "Last name is empty!";
+  }
+  if (!ctype_alpha($_POST['f_name'])) {
+    $_SESSION['error'] = 'First Name Must Be Alphabetic';
+    header('Location: http://129.114.19.115/~dbteam/form_body');
+    exit;
+  }
+  if (!ctype_alpha($_POST['m_name'])) {
+    $_SESSION['error'] = 'Middle Name Must Be Alphabetic';
+    header('Location: http://129.114.19.115/~dbteam/form_body');
+    exit;
+  }
+  if (!ctype_alpha($_POST['l_name'])) {
+    $_SESSION['error'] = 'Last Name Must Be Alphabetic';
+    header('Location: http://129.114.19.115/~dbteam/form_body');
+    exit;
   }
   if (empty($_POST['ssn'])) {
     $_SESSION['error'] = 'Missing SSN';
     header('Location: http://129.114.19.115/~dbteam/form_body');
     exit;
-
-    echo "ssn is empty!";
   }
 
   //open connection to the airport database file
