@@ -14,13 +14,21 @@
         unset($_SESSION['error']);
       }
 
+
+
       ?>
 
       <h1>New Passenger Form</h1>
 
       <form action="form_handler.php" method="post">
         <label for="f_name">First name:</label><br>
-        <input type="text" id="f_name" name="f_name">
+        <?php
+          if (isset($_GET['f_name'])){
+            echo "<input type='text' id='f_name' name='f_name' value='" . $_GET['f_name'] ."'>"
+          } else {
+            echo "<input type='text' id='f_name' name='f_name'>"
+          }
+        ?>
 
         <br>
 
