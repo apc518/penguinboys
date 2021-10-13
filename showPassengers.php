@@ -1,5 +1,9 @@
 <!DOCTYPE html>
 <html>
+<head>
+    <title>penguin boyz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 <body>
 <h2>List of all passengers</h2>
 <p>
