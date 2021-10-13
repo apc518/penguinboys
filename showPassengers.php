@@ -5,6 +5,12 @@
 <p>
     <?php
 
+        //prints success message
+        if (isset($_SESSION['formSuccessMessage'])) {
+          echo "ERROR: " . $_SESSION['formSuccessMessage'];
+          unset($_SESSION['formSuccessMessage']);
+        }
+
         //path to the SQLite database file
         $db_file = './myDB/airport.db';
 
@@ -17,7 +23,7 @@
 
             //return all passengers, and store the result set
             $stmt = $db->prepare("SELECT * FROM passengers WHERE ssn = ?");
-            $stmt->execute([$_GET['passenger_ssn']]);
+            //$stmt->execute([$_GET['passenger_ssn']]);
 
             //loop through each tuple in result set and print out the data
             //ssn will be shown in blue (see below)
