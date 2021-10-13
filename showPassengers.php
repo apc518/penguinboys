@@ -8,7 +8,7 @@
 
         //prints success message
         if (isset($_SESSION['formSuccessMessage'])) {
-          echo "ERROR: " . $_SESSION['formSuccessMessage'];
+          echo $_SESSION['formSuccessMessage'];
           unset($_SESSION['formSuccessMessage']);
         }
 
