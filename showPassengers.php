@@ -4,6 +4,7 @@
 <h2>List of all passengers</h2>
 <p>
     <?php
+        session_start();
 
         //prints success message
         if (isset($_SESSION['formSuccessMessage'])) {
