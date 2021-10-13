@@ -55,8 +55,6 @@
         <br>
 
         <label for="ssn">SSN:</label><br>
-        <input type="text" id="ssn" name="ssn" placeholder="123-45-6789"
-  pattern="[0-9]{3}-[0-9]{2}-[0-9]{4}">
         <?php
           if (isset($_GET['ssn'])){
             echo "<input type='text' id='ssn' name='ssn' placeholder='123-45-6789'
