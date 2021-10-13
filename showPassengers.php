@@ -39,7 +39,7 @@
             $query_str = "select * from passengers;";
             $result_set = $db->query($query_str);
             foreach($result_set as $tuple) {
-              echo "<font color='blue'>$tuple[ssn]</font> $tuple[f_name] $tuple[m_name] $tuple[l_name]<br/>\n";
+              echo "<font color='#d0d'>$tuple[ssn]</font> $tuple[f_name] $tuple[m_name] $tuple[l_name]<br/>\n";
             }
 
             //disconnect from db
