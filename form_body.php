@@ -67,7 +67,13 @@
 
         <br><br>
 
-        <input type="submit" value="Submit">
+        <?php
+          if (isset($_GET['passenger_ssn'])){
+            <input type="submit" value="Update">
+          } else  {
+            <input type="submit" value="Submit">
+          }
+        ?>
       </form>
 
 </body></html>
