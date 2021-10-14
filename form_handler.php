@@ -63,7 +63,7 @@
   }
 
   if($count == 1){ // person already exists
-    $stmt = $db->prepare("UPDATE passengers SET ? = ?, ? = ?, ? = ? WHERE ssn = ?;");
+    $stmt = $db->prepare("UPDATE passengers SET f_name = ?, m_name = ?, l_name = ? WHERE ssn = ?;");
     $stmt->execute([$_POST['f_name'],$_POST['m_name'],$_POST['l_name'],$_POST['ssn']]);
   }
   else if($count == 0){
