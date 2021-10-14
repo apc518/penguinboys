@@ -14,11 +14,17 @@
         unset($_SESSION['error']);
       }
 
-
-
       ?>
 
       <h1>New Passenger Form</h1>
+
+      <?php
+        if (isset($_GET['passenger_ssn'])){
+          echo "<h1>Update Passenger Form</h1>";
+        } else  {
+          echo "<h1>New Passenger Form</h1>";
+        }
+      ?>
 
       <form action="form_handler.php" method="post">
         <label for="f_name">First name:</label><br>
