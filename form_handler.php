@@ -56,11 +56,17 @@
   $personExistStmt = $db->prepare("SELECT ssn FROM passengers WHERE ssn = ?;");
   $personExistStmt->execute([$_POST['ssn']]);
 
-  if($personExistStmt->rowCount() == 1){ // person already exists
+  $count = 0;
+
+  foreach($personExistStmt as $tuple){
+    $count++;
+  }
+
+  if($count == 1){ // person already exists
     $stmt = $db->prepare("UPDATE passengers SET ? = ?, ? = ?, ? = ? WHERE ssn = ?;");
     $stmt->execute([$_POST['f_name'],$_POST['m_name'],$_POST['l_name'],$_POST['ssn']]);
   }
-  else if($personExistStmt->rowCount() == 0){
+  else if($count == 0){
     //return all passengers, and store the result set
     $stmt = $db->prepare("INSERT INTO passengers VALUES (?, ?, ?, ?);");
     $stmt->execute([$_POST['f_name'],$_POST['m_name'],$_POST['l_name'],$_POST['ssn']]);
