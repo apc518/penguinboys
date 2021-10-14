@@ -16,8 +16,6 @@
 
       ?>
 
-      <h1>New Passenger Form</h1>
-
       <?php
         if (isset($_GET['passenger_ssn'])){
           echo "<h1>Update Passenger Form</h1>";
