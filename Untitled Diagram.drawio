@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-01T22:44:44.852Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="oA5GJRLwhwoIWFmEvkt1" version="15.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-01T23:05:02.174Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="l3wa9Ak05S1kwe5yheei" version="15.6.4" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="1662" dy="799" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="2272" dy="799" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -372,46 +372,7 @@
             <mxPoint x="370" y="755" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fk1rj7K9F4PNxC_N-SPY-107" value="Users" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fontColor=default;fillColor=default;strokeColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="400" y="40" width="260" height="180" as="geometry" />
-        </mxCell>
-        <mxCell id="Fk1rj7K9F4PNxC_N-SPY-108" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;fontColor=default;strokeColor=default;labelBackgroundColor=default;" vertex="1" parent="Fk1rj7K9F4PNxC_N-SPY-107">
-          <mxGeometry y="30" width="260" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="Fk1rj7K9F4PNxC_N-SPY-109" value="PK" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;fontColor=default;strokeColor=default;labelBackgroundColor=default;" vertex="1" parent="Fk1rj7K9F4PNxC_N-SPY-108">
-          <mxGeometry width="40" height="30" as="geometry">
-            <mxRectangle width="40" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Fk1rj7K9F4PNxC_N-SPY-110" value="uid INT NOT NULL " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;fontColor=default;strokeColor=default;labelBackgroundColor=default;" vertex="1" parent="Fk1rj7K9F4PNxC_N-SPY-108">
-          <mxGeometry x="40" width="220" height="30" as="geometry">
-            <mxRectangle width="220" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Fk1rj7K9F4PNxC_N-SPY-111" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;strokeColor=default;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="Fk1rj7K9F4PNxC_N-SPY-107">
-          <mxGeometry y="60" width="260" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="Fk1rj7K9F4PNxC_N-SPY-112" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontColor=default;strokeColor=default;labelBackgroundColor=default;" vertex="1" parent="Fk1rj7K9F4PNxC_N-SPY-111">
-          <mxGeometry width="40" height="30" as="geometry">
-            <mxRectangle width="40" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Fk1rj7K9F4PNxC_N-SPY-113" value="fname TEXT" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontColor=default;strokeColor=default;labelBackgroundColor=default;" vertex="1" parent="Fk1rj7K9F4PNxC_N-SPY-111">
-          <mxGeometry x="40" width="220" height="30" as="geometry">
-            <mxRectangle width="220" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Fk1rj7K9F4PNxC_N-SPY-124" value="lname TEXT" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontColor=default;strokeColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="440" y="125" width="220" height="30" as="geometry">
-            <mxRectangle width="220" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Fk1rj7K9F4PNxC_N-SPY-125" value="password TEXT NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontColor=default;strokeColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="440" y="150" width="220" height="30" as="geometry">
-            <mxRectangle width="220" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Fk1rj7K9F4PNxC_N-SPY-126" value="Guides" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fontColor=default;fillColor=default;strokeColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="Fk1rj7K9F4PNxC_N-SPY-126" value="Users" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fontColor=default;fillColor=default;strokeColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="400" y="880" width="260" height="180" as="geometry" />
         </mxCell>
         <mxCell id="Fk1rj7K9F4PNxC_N-SPY-127" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;fontColor=default;strokeColor=default;labelBackgroundColor=default;" vertex="1" parent="Fk1rj7K9F4PNxC_N-SPY-126">
@@ -422,7 +383,7 @@
             <mxRectangle width="40" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fk1rj7K9F4PNxC_N-SPY-129" value="uid INT NOT NULL " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;fontColor=default;strokeColor=default;labelBackgroundColor=default;" vertex="1" parent="Fk1rj7K9F4PNxC_N-SPY-127">
+        <mxCell id="Fk1rj7K9F4PNxC_N-SPY-129" value="email TEXT NOT NULL " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;fontColor=default;strokeColor=default;labelBackgroundColor=default;" vertex="1" parent="Fk1rj7K9F4PNxC_N-SPY-127">
           <mxGeometry x="40" width="220" height="30" as="geometry">
             <mxRectangle width="220" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -450,10 +411,10 @@
             <mxRectangle width="220" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fk1rj7K9F4PNxC_N-SPY-138" value="" style="endArrow=ERzeroToMany;startArrow=ERone;endFill=1;startFill=0;strokeColor=default;labelBackgroundColor=default;fontColor=default;edgeStyle=entityRelationEdgeStyle;" edge="1" parent="1">
+        <mxCell id="Fk1rj7K9F4PNxC_N-SPY-138" value="" style="endArrow=ERone;startArrow=ERzeroToMany;endFill=0;startFill=1;strokeColor=default;labelBackgroundColor=default;fontColor=default;edgeStyle=entityRelationEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="Fk1rj7K9F4PNxC_N-SPY-127">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="320" y="910" as="sourcePoint" />
-            <mxPoint x="360" y="990" as="targetPoint" />
+            <mxPoint x="280" y="890" as="sourcePoint" />
+            <mxPoint x="320" y="910" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Fk1rj7K9F4PNxC_N-SPY-136" value="author INT NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontColor=default;strokeColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
@@ -464,6 +425,58 @@
         <mxCell id="Fk1rj7K9F4PNxC_N-SPY-139" value="FK1" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;strokeColor=default;labelBackgroundColor=default;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="30" y="880" width="30" height="30" as="geometry">
             <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fk1rj7K9F4PNxC_N-SPY-156" value="UserLibrary" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fontColor=default;fillColor=default;strokeColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-370" y="760" width="260" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Fk1rj7K9F4PNxC_N-SPY-157" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;fontColor=default;strokeColor=default;labelBackgroundColor=default;" vertex="1" parent="Fk1rj7K9F4PNxC_N-SPY-156">
+          <mxGeometry y="30" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Fk1rj7K9F4PNxC_N-SPY-158" value="PKFK1" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;fontColor=default;strokeColor=default;labelBackgroundColor=default;" vertex="1" parent="Fk1rj7K9F4PNxC_N-SPY-157">
+          <mxGeometry width="40" height="40" as="geometry">
+            <mxRectangle width="40" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fk1rj7K9F4PNxC_N-SPY-159" value="user TEXT NOT NULL " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;fontColor=default;strokeColor=default;labelBackgroundColor=default;" vertex="1" parent="Fk1rj7K9F4PNxC_N-SPY-157">
+          <mxGeometry x="40" width="220" height="40" as="geometry">
+            <mxRectangle width="220" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fk1rj7K9F4PNxC_N-SPY-160" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;strokeColor=default;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="Fk1rj7K9F4PNxC_N-SPY-156">
+          <mxGeometry y="70" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Fk1rj7K9F4PNxC_N-SPY-161" value="PKFK2" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontColor=default;strokeColor=default;labelBackgroundColor=default;fontStyle=1" vertex="1" parent="Fk1rj7K9F4PNxC_N-SPY-160">
+          <mxGeometry width="40" height="30" as="geometry">
+            <mxRectangle width="40" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fk1rj7K9F4PNxC_N-SPY-162" value="book_name TEXT NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontColor=default;strokeColor=default;labelBackgroundColor=default;fontStyle=5" vertex="1" parent="Fk1rj7K9F4PNxC_N-SPY-160">
+          <mxGeometry x="40" width="220" height="30" as="geometry">
+            <mxRectangle width="220" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fk1rj7K9F4PNxC_N-SPY-167" value="" style="endArrow=none;startArrow=ERzeroToMany;endFill=0;startFill=1;strokeColor=default;labelBackgroundColor=default;fontColor=default;edgeStyle=entityRelationEdgeStyle;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="-110" y="805" as="sourcePoint" />
+            <mxPoint x="-25" y="970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fk1rj7K9F4PNxC_N-SPY-168" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=default;fontColor=default;startArrow=ERzeroToMany;startFill=1;endArrow=ERone;endFill=0;strokeColor=default;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Fk1rj7K9F4PNxC_N-SPY-160" target="Fk1rj7K9F4PNxC_N-SPY-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-70" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fk1rj7K9F4PNxC_N-SPY-169" value="" style="endArrow=none;html=1;rounded=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="970" as="sourcePoint" />
+            <mxPoint x="-30" y="970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fk1rj7K9F4PNxC_N-SPY-172" value="" style="endArrow=none;html=1;rounded=1;labelBackgroundColor=default;fontColor=default;strokeColor=default;edgeStyle=entityRelationEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="Fk1rj7K9F4PNxC_N-SPY-127">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="970" as="sourcePoint" />
+            <mxPoint x="370" y="940" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
