@@ -1,13 +1,22 @@
 body{
     background-color: #2d2d2f;
     color: #4dd;
-    padding-left: 20vw;
-    padding-right: 20vw;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 1rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .text-center{
     text-align: center;
+}
+
+#rock-climbing{
+    max-width: 170px;
+}
+
+td{
+    padding-right: 3rem;
 }
 
 a{
@@ -23,15 +32,24 @@ li{
     padding-bottom: 1rem;
 }
 
-img{
+.solid-image{
     padding-top: 4rem;
+}
+
+#planning-schema{
+    min-width: 1000px;
 }
 
 .planning-title{
     text-align: center;
 }
 
+.planning-section{
+    margin-top: 2rem;
+}
+
 #planning-footer{
-    margin-top: 80px;
-    margin-bottom: 40px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    border: 1px solid #488;
 }
