@@ -11,8 +11,13 @@ body{
 }
 
 a{
-    color: #a0a;
+    color: #d0d;
     font-size: large;
+}
+
+a:hover{
+    color: white;
+    transition-duration: 0.2s;
 }
 
 a:visited{
@@ -25,4 +30,13 @@ li{
 
 img{
     padding-top: 4rem;
+}
+
+#planning-title{
+    text-align: center;
+}
+
+#planning-footer{
+    margin-top: 80px;
+    margin-bottom: 40px;
 }

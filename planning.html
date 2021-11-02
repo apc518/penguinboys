@@ -1,0 +1,43 @@
+<html>
+<head>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+        <h1 id="planning-title">Planning</h1>
+
+        <h2>Introduction</h2>
+
+        <p>Our vision is a web-mobile app pair to facilitate the creation and usage of rock climbing guides. We allow ourselves the option to expand to other genres of outdoor activity such as skiing and hiking, but focus first on climbing. The two parts will be a desktop-oriented web app for creating climbing guides, and a mobile app designed for consuming and using the guides.<br/><br/>
+        A database solution is essential to this application for many reasons. Climbing guides consist of a lot of information that needs to be dynamically added and altered. Then, we want the ability to search for climbs based on location, guide reputation, and many other factors.</p>
+
+        <h2>Product Features</h2>
+
+        <ul>
+            <li>Users will have accounts, with emails and passwords. We will store their usernames and passwords, hashed and salted of course</li>
+            <li>Users can opt-in to being a guide user, and posting their own guidebooks on the website</li>
+            <li>Mobile app for consuming the guides</li>
+            <li>Reviews can be left on the website, one review per person per guidebook. These reviews can be aggregated to inform people about the consistency and quality of a particular guide user, or guidebook</li>
+            <li>Users can search for guide books based on lots of criteria; nearly any property of a climb or guidebook can be searched</li>
+            <li>Mobile app will fetch data from the server and store locally to render the guidebook client-side</li>
+            <li>Mobile app will optionally sync with the server periodically</li>
+            <li>There will be profile pages for guide users, where each guide book from a given guide user will be displayed (similar to how repos are displayed on github)</li>
+        </ul>
+
+        <h2>Database Schema</h2>
+
+        <img src="schema-diagram.svg"></img>
+
+        <h2>Project Management</h2>
+
+        <h3>Tech Stack:</h3>
+
+        <ul>
+            <li>Frontend: React/React Native (Javascript)</li>
+            <li>Backend: Django (Python)</li>
+            <li>Database: MySQL</li>
+        </ul>
+
+        We'll be using <a href="https://trello.com">Trello</a> for project-management, as well as <a href="https://docs.google.com/spreadsheets/d/1npLlvgJmj9uCpRNpW6WFZqCt4exTtnDSI8BzemBSNfg/edit#gid=0">this Gantt Chart</a>
+
+        <hr id="planning-footer">
+</html>
