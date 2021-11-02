@@ -22,10 +22,15 @@ td{
 a{
     color: #d0d;
     font-size: large;
+    transition: color 0.1s ease-in-out;
 }
 
 a:visited{
     color: #d0d;
+}
+
+a:hover{
+    color: #ddd;
 }
 
 li{
