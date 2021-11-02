@@ -15,11 +15,6 @@ a{
     font-size: large;
 }
 
-a:hover{
-    color: white;
-    transition-duration: 0.2s;
-}
-
 a:visited{
     color: #d0d;
 }
